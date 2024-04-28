@@ -1,0 +1,28 @@
+.calc-border{
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.first-row, .second-row, .third-row, .fourth-row{
+    display: flex;
+    /* justify-content: space-between; */
+    flex: 1;
+}
+
+.digits,.clear,.equal,.operator,.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.zero{
+    flex: 1;
+    font-size:xx-large;
+}
+
+.display-area{
+    display: flex;
+    flex: 1;
+}
+
+.displayRow{
+  display: flex;
+}
